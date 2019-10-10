@@ -3,3 +3,8 @@
 ```@docs
 greet()
 ```
+
+
+```@docs
+test_2()
+```
