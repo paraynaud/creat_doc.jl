@@ -4,9 +4,9 @@ include("../src/hello_world.jl")
 
 using .hello_world
 
-@testset "ensemble des tests" begin
-    
+# @testset "ensemble des tests" begin
+
     @test greet() == nothing
 
     @test test_2() == 2
-end
+# end
