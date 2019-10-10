@@ -8,4 +8,6 @@ using .hello_world
     @test true
 
     @test greet() == nothing
-end 
+
+    @test test_2() == 2 
+end
