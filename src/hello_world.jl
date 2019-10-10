@@ -1,5 +1,8 @@
 module hello_world
 
+
+export greet, test_2
+
 """
     greet()
 affiche Hello World!
@@ -14,6 +17,6 @@ Return 2
 test_2() = 2
 
 
-export greet, test_2
+
 
 end # module
