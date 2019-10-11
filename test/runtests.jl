@@ -11,6 +11,6 @@ using .hello_world
 
     @test hello_world.test_2() == 2
 
-    @test hello_world.main() == 10
-    
+    @test hello_world.main() == 100
+
 end
