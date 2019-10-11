@@ -8,3 +8,7 @@ greet()
 ```@docs
 test_2()
 ```
+
+```@docs
+main()
+```

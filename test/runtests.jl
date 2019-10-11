@@ -9,4 +9,6 @@ using .hello_world
     @test greet() == nothing
 
     @test test_2() == 2
+
+    @test main( == 10)
 # end
