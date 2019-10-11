@@ -30,6 +30,6 @@ end
 
 end # module
 
-using .hello_world
-
-main()
+# using .hello_world
+#
+# main()

@@ -4,11 +4,13 @@ include("../src/hello_world.jl")
 
 using .hello_world
 
-# @testset "ensemble des tests" begin
+# using hello_world
+@testset "ensemble des tests" begin
 
-    @test greet() == nothing
+    @test hello_world.greet() == nothing
 
-    @test test_2() == 2
+    @test hello_world.test_2() == 2
 
-    @test main( == 10)
-# end
+    @test hello_world.main() == 10
+    
+end
