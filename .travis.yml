@@ -15,7 +15,7 @@ julia:
 notifications:
   email: false
 
-# script: # the default script is equivalent to the following
+script: # the default script is equivalent to the following
 #  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
  # - julia --project -e 'using Pkg; Pkg.build(); Pkg.test(; coverage=true)';
 
